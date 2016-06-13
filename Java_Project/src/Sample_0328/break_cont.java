@@ -6,10 +6,10 @@ public class break_cont {
 		// TODO Auto-generated method stub
 		for(int i = 1; i<=4; i++){
 			System.out.println("before:"+i);
-			if(i==2) continue;
+			if(i==4) continue;
 			System.out.println("after:"+i);
 			System.out.println("***************************************");
-			if(i==3) break;
+			if(i==5) break;
 		
 		}
 
